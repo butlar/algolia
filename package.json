@@ -10,7 +10,7 @@
     "**/node_modules/**"
   ],
   "scripts": {
-    "dev": "echo \"Implement me!\"",
+    "dev": "node api.js && echo \"Implement me!\"",
     "setup": "yarn",
     "test:parent": "NODE_ENV=testing mocha './test/**/*.test.js'",
     "test": "yarn test:parent && lerna run test",
